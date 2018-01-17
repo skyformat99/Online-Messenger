@@ -6,7 +6,7 @@ BIN=./bin
 SRC=./src
 GCC=g++
 RM=rm -f
-PORT=127.0.0.1
+IP=127.0.0.1
 
 all: $(TARGET)
 	$(RM) $(SRC)/*.o
